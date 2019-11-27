@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<link href="style.css" rel="stylesheet" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>PrzepisyPiekarskieRK.pl</title>
+
+</head>
+<script>
+function desc(){}
+</script>
+<body>
+
+	<header>
+
+		<div id="logo">
+			<!-- <img src="#" /> -->
+
+
+				Radosław Kopeć tradycyjne wypieki
+
+		</div>
+
+
+	</header>
+	<div id="nav2">
+		<button>
+			--------MENU-------
+		</button>
+	</div>
+	<nav>
+		<button class="nav-btn" id="b1">
+			O mnie
+		</button>
+		<button class="nav-btn" id="b2">
+			Przepisy
+		</button>
+		<button class="nav-btn" id="b3">
+			Galeria
+		</button >
+		<button class="nav-btn" id="b4">
+			Kontakt
+		</button>
+	</nav>
+	<article>
+		<!-- O mnie -->
+
+		<div id="a1div">
+
+			<img style="width:100%; grid-column-start: 1;
+			grid-column-end: 9;grid-row-start: 1;grid-row-end: 2;" src="img/background.jpg">
+
+
+
+			<div id="about_me">
+
+				<h1>Troszkę o mnie </h1>
+					<div style="margin: 7px;">
+						Czesć jestem Radek, od dziecka pasjonuje się wypiekami. Moje doświadczenie związane z tradycją wypieków to 20lat. Jestem też dziesięciokrotym zwycięscą Mięzynarodowego Europejskiego Konkursu w peieczeniu chleba. Założyłem tą stronę aby podzielić się moim doświadczeniem o piekarstwie.  Zapraszam Serdecznie! :)
+					</div>
+			</div>
+		</div>
+		<!-- about me phone -->
+		<div id="about_me_phone">
+			<div id="a2div">
+				<h1>Troszkę o mnie </h1>
+		    </div>
+			<div style="margin: 7px;">
+				Czesć jestem Radek, od dziecka pasjonuje się wypiekami. Moje doświadczenie związane z tradycją wypieków to 20lat. Jestem też dziesięciokrotym zwycięscą Mięzynarodowego Europejskiego Konkursu w peieczeniu chleba. Założyłem tą stronę aby podzielić się moim doświadczeniem o piekarstwie.  Zapraszam Serdecznie! :)
+			</div>
+
+
+		</div>
+		<!-- Przepisy -->
+
+		<div id="a2div">
+			<h1>Przepisy</h1>
+		</div>
+		<div id="a3div">
+
+
+
+		</div>
+		<!-- Formularz przepisu -->
+			<div id="a2div">
+				<h1>Dodaj przepis</h1>
+			</div>
+		<div class="formDiv">
+			<form name="formularz" >
+					<p id="alterForm"></p>
+					<p>Nagłówek&nbsp&nbsp&nbsp </p> <input id="fnaglowek" type="text" name="naglowek"><br>
+					<p>Składniki/Przepis&nbsp&nbsp </p> <input id="fskladniki"type="text" name="skladniki"><br>
+					<p>Url Obrazka  </p><input  id="fzdjecie" type="text" name="zdj"><br>
+					<!-- Nie jest submit bo słuzy tlyko do testów funkcji JavaScript -->
+					<input id="form-btn"type="button" value="Dodaj" onClick="formRceipt()">
+			</form>
+		</div>
+		<!-- Galeria -->
+		<div id="a2div">
+			<h1>Galeria</h1>
+		</div>
+		<div id="gallery">
+			<img src="img/ukrainka.jpg" style="width: 100%;" >
+			<div id="gallery-btn-container">
+				<button class="gallery-btn">
+					Left
+				</button>
+				<button class="gallery-btn">
+					Right
+				</button>
+			</div>
+		</div>
+		<!-- Kontakt -->
+		<div id="a2div">
+			<h1>Kontakt</h1>
+		</div>
+		<!-- Social media -->
+		<div id="social-media">
+			<div class='sm-d' id="sm-d1">
+				<img src="img/facebook.png" style="width: 100%;" class="sm-img" />
+			</div>
+			<div class='sm-d' id="sm-d2">
+				<img src="img/instagram.png" style="width: 100%;" class="sm-img" />
+			</div>
+			<div class='sm-d' id="sm-d3">
+				<img src="img/twitter.png" style="width: 100%;"class="sm-img" />
+			</div>
+			<div class='sm-d' id="sm-d4">
+				<img src="img/github-logo.png" style="width: 100%;"  class="sm-img"/>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<div style="grid-column-start: 1;
+		grid-column-end: 4;">
+		allekin@o2.pl
+		<br>
+		Tel:+48 583 470 582
+		</div>
+		<div style="grid-column-start: 6; grid-column-end: 8;">Created by
+			<div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: oblique;">Radosław Kopeć</div>
+		</div>
+	</footer>
+</body>
+
+<script src="przepisy.js"></script>
+</html>
